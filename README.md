@@ -13,46 +13,52 @@ QA User Actions:
 	QA user deletes an existing bug.
 
 RD User Actions:
-	Resolve Bug:
-	RD user marks a bug as resolved.
+-Resolve Bug:
+-RD user marks a bug as resolved.
 
 ## PHASE 2 USE_CASE_
 
-Severity and Priority Fields:
-	QA, RD, and PM users can set severity and priority levels for bugs.
-PM User Actions (Feature Request):
-	Create Feature Request:
-	PM user creates a new feature request.
-	Resolve Feature Request:
-	RD user marks a feature request as resolved.
+# Severity and Priority Fields:
+-QA, RD, and PM users can set severity and priority levels for bugs.
 
-Test Case Ticket Type:
-	Create Test Case:
-	QA user creates a new test case.
-	Resolve Test Case:
-	QA user marks a test case as resolved.
-	Read-Only Access:
-	Other user types (QA, RD, PM) can view test cases but cannot modify them.
+# PM User Actions (Feature Request):
+
+Create Feature Request:
+-PM user creates a new feature request.
+
+# Resolve Feature Request:
+-RD user marks a feature request as resolved.
+
+# Test Case Ticket Type:
+
+Create Test Case:
+-QA user creates a new test case.
+
+Resolve Test Case:
+-QA user marks a test case as resolved.
+
+Read-Only Access:
+-Other user types (QA, RD, PM) can view test cases but cannot modify them.
 
 Administrator User Actions:	
-	Manage Users:
-	Administrator user adds new QA, RD, and PM users.
-	Administrator user can modify user roles.
+Manage Users:
+-Administrator user adds new QA, RD, and PM users.
+-Administrator user can modify user roles.
 
 # Runnning The Project
 
-Server-Side:
+## Server
 
-# cd TickeTrackingSystem.Server
-
-start server 
+cd TickeTrackingSystem.Server folder
 
 run start
 
-Client-Side
+## Client
 
-# cd ticketrackingsystem.client then run:
+cd ticketrackingsystem.client
 
-npm run install
-&
-npm run dev 
+==> To install necessary packages
+
+please run:
+
+npm run install & npm run dev
