@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\Olwethu\\Documents\\TicketSystem_Assessment\\TicketApp\\TickeTrackingSystem\\TickeTrackingSystem.Server\\..\\ticketrackingsystem.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TickeTrackingSystem.Server.props" />
+</Project>

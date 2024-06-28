@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "ib7BFuOtu7J46K836lCbYRR0po9uybeoyABkKNXmyV8=",
+  "Source": "TickeTrackingSystem.Server",
+  "BasePath": "_content/TickeTrackingSystem.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Olwethu\\Documents\\TicketSystem_Assessment\\TicketApp\\TickeTrackingSystem\\ticketrackingsystem.client\\ticketrackingsystem.client.esproj",
+      "Version": 2,
+      "Source": "ticketrackingsystem.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

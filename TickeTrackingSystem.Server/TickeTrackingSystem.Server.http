@@ -1,0 +1,6 @@
+@TickeTrackingSystem.Server_HostAddress = http://localhost:5247
+
+GET {{TickeTrackingSystem.Server_HostAddress}}/ticket_data/
+Accept: application/json
+
+###
