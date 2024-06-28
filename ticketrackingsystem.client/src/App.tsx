@@ -61,7 +61,7 @@ function App() {
     );
 
     async function populateTicketData() {
-        const response = await fetch('ticket_data');
+        const response = await fetch('ticket');
         const data = await response.json();
         setTickets(data);
     }
