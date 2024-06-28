@@ -43,7 +43,7 @@ Administrator User Actions:
 
 Server-Side:
 
-# cd ticketrackingsystem.Server
+# cd TickeTrackingSystem.Server
 
 start server 
 
