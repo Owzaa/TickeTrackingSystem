@@ -41,8 +41,18 @@ Administrator User Actions:
 
 # Runnning The Project
 
-Server-Side
-## run start
+Server-Side:
+
+# cd ticketrackingsystem.Server
+
+start server 
+
+run start
 
 Client-Side
-## npm run dev 
+
+# cd ticketrackingsystem.client then run:
+
+npm run install
+&
+npm run dev 
